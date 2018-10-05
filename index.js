@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
     res.send('Hello World ///////')
 
 })
-app.listen(8081,(err)=>{
+app.listen(7000,(err)=>{
     if(err){
         console.log('Server Starts failed',err.msg);
     }
