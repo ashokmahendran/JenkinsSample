@@ -12,7 +12,7 @@ app.get('/login', (req, res) => {
 app.get('/', (req, res) => {
     console.log('Here');
     
-    res.send('Hello World ///////')
+    res.send('Hello World ////')
 
 })
 app.listen(7000,(err)=>{
